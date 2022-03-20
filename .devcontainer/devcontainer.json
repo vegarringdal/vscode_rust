@@ -1,5 +1,11 @@
 {
     "image": "mcr.microsoft.com/vscode/devcontainers/rust:latest",
     "forwardPorts": [3000],
-    "extensions": ["rust-lang.rust","matklad.rust-analyzer", "serayuzgur.crates", "vadimcn.vscode-lldb"]
+    "extensions": [
+		"matklad.rust-analyzer",
+		"serayuzgur.crates",
+		"vadimcn.vscode-lldb",
+		"JScearcy.rust-doc-viewer",
+		"swellaby.vscode-rust-test-adapter"
+	]
   }
